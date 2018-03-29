@@ -1,0 +1,7 @@
+
+
+powershell -executionpolicy bypass  tools\build.ps1
+
+nodemon -e cs -i obj -i bin  --exec dotnet run
+
+nodemon -e fs -i obj -i bin  --exec dotnet run
