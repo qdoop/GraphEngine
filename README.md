@@ -1,6 +1,8 @@
 # LOCAL CHANGES
 
-
+#  1. zserver0app
+Debug Trinity startup.<br>
+If program complains for missing dlls just copy them from the root `bin` folder to project's output path.
 
 
 
